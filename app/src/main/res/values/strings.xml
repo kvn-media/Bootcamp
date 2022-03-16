@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Bootcamp</string>
+    <string name="Introduction">Konnichiwa orewa Kevin kun!</string>
+    <string name="kuning">Kuning</string>
+    <string name="abu_abu">Abu abu</string>
+    <string name="putih">Putih</string>
+    <string name="biru">Biru</string>
+    <string name="hijau">Hijau</string>
+    <string name="merah">Merah</string>
+    <string-array name="negara">
+        <item>Austria</item>
+        <item>Belanda</item>
+        <item>China</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Singapura</item>
+    </string-array>
+    <string-array name="ibukota">
+        <item>Vienna</item>
+        <item>Amsterdam</item>
+        <item>Beijing</item>
+        <item>New Delhi</item>
+        <item>Jakarta</item>
+        <item>Kuala Lumpur</item>
+        <item>Singapura</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+</resources>

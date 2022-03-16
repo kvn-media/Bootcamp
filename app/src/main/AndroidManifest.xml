@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.enigmacamp.excercise">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bootcamp">
+        <activity android:name=".InfoNegara"></activity>
+        <activity android:name=".InfoDetail"/>
+        <activity android:name=".Lokasi" />
+        <activity android:name=".Telepon" />
+        <activity android:name=".BacaKontak" />
+        <activity android:name=".database.Databse4" />
+        <activity android:name=".database.Database3" />
+        <activity android:name=".database.Database2" />
+        <activity android:name=".database.Database" />
+        <activity
+            android:name=".database.MainActivity2"
+            android:label="@string/title_activity_main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DataInternal" />
+        <activity android:name=".Prefrensi" />
+        <activity android:name=".TesThread" />
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity android:name=".MenuPopup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Video" />
+        <activity android:name=".Suara" />
+        <activity android:name=".panggilBrowser" />
+        <activity android:name=".nilaiBalik" />
+        <activity
+            android:name=".contohIntent"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HalamanDua"
+            android:label="@string/app_name" />
+        <activity android:name=".gridView" />
+        <activity android:name=".galeriHorizontal" />
+        <activity android:name=".galeriVertical" />
+        <activity android:name=".penjangkaran" />
+        <activity android:name=".frameLayout" />
+        <activity android:name=".tableLayout" />
+        <activity android:name=".autoComplete" />
+        <activity android:name=".registrasiAkun" />
+        <activity android:name=".persegiPanjang" />
+        <activity android:name=".kotakTeks" />
+        <activity android:name=".dialog2" />
+        <activity android:name=".Dialog" />
+        <activity android:name=".spinnerView" />
+        <activity android:name=".listView2" />
+        <activity android:name=".listView" />
+        <activity android:name=".tombolRadio" />
+        <activity android:name=".kotakCek" />
+        <activity android:name=".kejadian" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </application>
+
+</manifest>

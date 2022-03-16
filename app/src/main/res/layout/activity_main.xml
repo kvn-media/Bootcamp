@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayoutMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewPentujuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Klik tombol Menu untuk melihat menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textViewPentujuk"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewPetunjuk"
+        android:layout_marginTop="25dp"
+        android:text="Menu"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

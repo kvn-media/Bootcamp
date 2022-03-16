@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <action_settings
+        android:id="@+id/action_settings (Item)">
+
+        <group
+            android:id="@+id/putih"
+            android:title="@string/putih" />
+        <group
+            android:id="@+id/abu_abu"
+            android:title="@string/abu_abu" />
+        <group
+            android:id="@+id/kuning"
+            android:title="@string/kuning" />
+        <group
+            android:id="@+id/biru"
+            android:title="@string/biru" />
+        <group
+            android:id="@+id/hijau"
+            android:title="@string/hijau" />
+        <group
+            android:id="@+id/merah"
+            android:title="@string/merah" />
+
+    </action_settings>
+</menu>
